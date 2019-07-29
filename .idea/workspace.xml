@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="526d5b64-b0e4-4b11-babe-f0b213f35b0b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/SearchTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/DisplayBookTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -64,11 +64,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/SearchTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="213">
+            <state relative-caret-position="330">
               <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/DisplayBookTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="147">
+              <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -97,6 +109,7 @@
         <option value="$PROJECT_DIR$/src/test/java/RegistrationTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/LoginTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/SearchTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/DisplayBookTest.java" />
       </list>
     </option>
   </component>
@@ -172,7 +185,19 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.SearchTest.searchBookTest">
+  <component name="RunManager" selected="TestNG.DisplayBookTest.displayBook">
+    <configuration name="DisplayBookTest.displayBook" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Projekt Selenium" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DisplayBookTest" />
+      <option name="METHOD_NAME" value="displayBook" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LoginTest.loginTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Projekt Selenium" />
       <option name="PACKAGE_NAME" value="" />
@@ -211,6 +236,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.DisplayBookTest.displayBook" />
         <item itemvalue="TestNG.SearchTest.searchBookTest" />
         <item itemvalue="TestNG.LoginTest.loginTestIfIncorrectData" />
         <item itemvalue="TestNG.LoginTest.loginTest" />
@@ -227,7 +253,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1564423066449</updated>
-      <workItem from="1564423068483" duration="4642000" />
+      <workItem from="1564423068483" duration="7709000" />
     </task>
     <task id="LOCAL-00001" summary="*add Chrome Driver &#10;&#10;*add Registration Test">
       <created>1564424720977</created>
@@ -243,25 +269,50 @@
       <option name="project" value="LOCAL" />
       <updated>1564426439076</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="*add search  Test">
+      <created>1564427801371</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1564427801371</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LoginTest_loginTest - 2019.07.29 at 20h 47m 31s.xml">
-      <configuration name="LoginTest.loginTest" configurationId="TestNG" />
+    <history-entry file="DisplayBookTest_displayBook - 2019.07.29 at 21h 49m 53s.xml">
+      <configuration name="DisplayBookTest.displayBook" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="LoginTest_loginTest - 2019.07.29 at 20h 48m 46s.xml">
-      <configuration name="LoginTest.loginTest" configurationId="TestNG" />
+    <history-entry file="DisplayBookTest_displayBook - 2019.07.29 at 21h 51m 55s.xml">
+      <configuration name="DisplayBookTest.displayBook" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="LoginTest_loginTestIfIncorrectData - 2019.07.29 at 20h 51m 37s.xml">
-      <configuration name="LoginTest.loginTestIfIncorrectData" configurationId="TestNG" />
+    <history-entry file="DisplayBookTest_displayBook - 2019.07.29 at 21h 53m 05s.xml">
+      <configuration name="DisplayBookTest.displayBook" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SearchTest_searchBookTest - 2019.07.29 at 21h 12m 29s.xml">
-      <configuration name="SearchTest.searchBookTest" configurationId="TestNG" />
+    <history-entry file="DisplayBookTest_displayBook - 2019.07.29 at 21h 54m 27s.xml">
+      <configuration name="DisplayBookTest.displayBook" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="DisplayBookTest_displayBook - 2019.07.29 at 21h 58m 54s.xml">
+      <configuration name="DisplayBookTest.displayBook" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="DisplayBookTest_displayBook - 2019.07.29 at 22h 00m 26s.xml">
+      <configuration name="DisplayBookTest.displayBook" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="DisplayBookTest_displayBook - 2019.07.29 at 22h 01m 33s.xml">
+      <configuration name="DisplayBookTest.displayBook" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="DisplayBookTest_displayBook - 2019.07.29 at 22h 02m 27s.xml">
+      <configuration name="DisplayBookTest.displayBook" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="DisplayBookTest_displayBook - 2019.07.29 at 22h 03m 02s.xml">
+      <configuration name="DisplayBookTest.displayBook" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="DisplayBookTest_displayBook - 2019.07.29 at 22h 05m 11s.xml">
+      <configuration name="DisplayBookTest.displayBook" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4642000" />
+    <option name="totallyTimeSpent" value="7709000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="332" width="1936" height="1096" extended-state="6" />
@@ -304,7 +355,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="*add Chrome Driver &#10;&#10;*add Registration Test" />
     <MESSAGE value="*add Login Test" />
-    <option name="LAST_COMMIT_MESSAGE" value="*add Login Test" />
+    <MESSAGE value="*add search  Test" />
+    <option name="LAST_COMMIT_MESSAGE" value="*add search  Test" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
@@ -346,8 +398,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/SearchTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
+        <state relative-caret-position="330">
           <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="1237" column="42" selection-start-line="1237" selection-start-column="42" selection-end-line="1237" selection-end-column="42" />
+          <folding>
+            <element signature="e#47538#47539#0" expanded="true" />
+            <element signature="e#47602#47603#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/DisplayBookTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
