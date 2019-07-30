@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="526d5b64-b0e4-4b11-babe-f0b213f35b0b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/addBookTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/AddAuthorTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/TestChromeDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestChromeDriver.java" afterDir="false" />
     </list>
@@ -20,11 +20,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/addBookTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="54" column="4" selection-start-line="54" selection-start-column="4" selection-end-line="54" selection-end-column="4" />
+            <state relative-caret-position="550">
+              <caret line="25" column="1" lean-forward="true" selection-start-line="15" selection-end-line="25" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/AddAuthorTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="651">
+              <caret line="50" column="8" selection-start-line="50" selection-start-column="8" selection-end-line="50" selection-end-column="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/TestChromeDriver.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="484">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -53,8 +77,9 @@
         <option value="$PROJECT_DIR$/src/test/java/SearchTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/DisplayBookTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/LoginTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/TestChromeDriver.java" />
         <option value="$PROJECT_DIR$/src/test/java/addBookTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestChromeDriver.java" />
+        <option value="$PROJECT_DIR$/src/test/java/AddAuthorTest.java" />
       </list>
     </option>
   </component>
@@ -130,36 +155,36 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.addBookTest.addBook">
+  <component name="RunManager" selected="TestNG.AddAuthorTest.addBookWithCorrectInformation">
+    <configuration name="AddAuthorTest.addBookWithCorrectInformation" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Projekt Selenium" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AddAuthorTest" />
+      <option name="METHOD_NAME" value="addBookWithCorrectInformation" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AddAuthorTest.correctAddAuthor" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Projekt Selenium" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AddAuthorTest" />
+      <option name="METHOD_NAME" value="correctAddAuthor" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DisplayBookTest.displayBook" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Projekt Selenium" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="DisplayBookTest" />
       <option name="METHOD_NAME" value="displayBook" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LoginTest.loginTestIfIncorrectData" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Projekt Selenium" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="LoginTest" />
-      <option name="METHOD_NAME" value="loginTestIfIncorrectData" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SearchTest.searchBookTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Projekt Selenium" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SearchTest" />
-      <option name="METHOD_NAME" value="searchBookTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -193,11 +218,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.AddAuthorTest.addBookWithCorrectInformation" />
+        <item itemvalue="TestNG.AddAuthorTest.correctAddAuthor" />
         <item itemvalue="TestNG.addBookTest.addBook" />
         <item itemvalue="TestNG.addBookTest.addBookWithCorrectInformation" />
         <item itemvalue="TestNG.DisplayBookTest.displayBook" />
-        <item itemvalue="TestNG.SearchTest.searchBookTest" />
-        <item itemvalue="TestNG.LoginTest.loginTestIfIncorrectData" />
       </list>
     </recent_temporary>
   </component>
@@ -211,7 +236,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1564423066449</updated>
-      <workItem from="1564423068483" duration="29844000" />
+      <workItem from="1564423068483" duration="32044000" />
     </task>
     <task id="LOCAL-00001" summary="*add Chrome Driver &#10;&#10;*add Registration Test">
       <created>1564424720977</created>
@@ -241,43 +266,50 @@
       <option name="project" value="LOCAL" />
       <updated>1564430870272</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="*add book adding test">
+      <created>1564518510902</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1564518510902</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="addBookTest_addBook - 2019.07.30 at 21h 20m 49s.xml">
-      <configuration name="addBookTest.addBook" configurationId="TestNG" />
+    <history-entry file="AddAuthorTest_correctAddAuthor - 2019.07.30 at 22h 47m 27s.xml">
+      <configuration name="AddAuthorTest.correctAddAuthor" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="addBookTest_addBook - 2019.07.30 at 21h 28m 31s.xml">
-      <configuration name="addBookTest.addBook" configurationId="TestNG" />
+    <history-entry file="AddAuthorTest_correctAddAuthor - 2019.07.30 at 22h 49m 51s.xml">
+      <configuration name="AddAuthorTest.correctAddAuthor" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="addBookTest_addBook - 2019.07.30 at 21h 30m 14s.xml">
-      <configuration name="addBookTest.addBook" configurationId="TestNG" />
+    <history-entry file="AddAuthorTest_addBookWithCorrectInformation - 2019.07.30 at 22h 51m 43s.xml">
+      <configuration name="AddAuthorTest.addBookWithCorrectInformation" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="addBookTest_addBook - 2019.07.30 at 21h 31m 14s.xml">
-      <configuration name="addBookTest.addBook" configurationId="TestNG" />
+    <history-entry file="AddAuthorTest_correctAddAuthor - 2019.07.30 at 22h 54m 46s.xml">
+      <configuration name="AddAuthorTest.correctAddAuthor" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="addBookTest_addBook - 2019.07.30 at 21h 32m 19s.xml">
-      <configuration name="addBookTest.addBook" configurationId="TestNG" />
+    <history-entry file="AddAuthorTest_correctAddAuthor - 2019.07.30 at 22h 56m 18s.xml">
+      <configuration name="AddAuthorTest.correctAddAuthor" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="addBookTest_addBook - 2019.07.30 at 21h 35m 33s.xml">
-      <configuration name="addBookTest.addBook" configurationId="TestNG" />
+    <history-entry file="AddAuthorTest_correctAddAuthor - 2019.07.30 at 22h 56m 59s.xml">
+      <configuration name="AddAuthorTest.correctAddAuthor" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="addBookTest_addBook - 2019.07.30 at 21h 36m 21s.xml">
-      <configuration name="addBookTest.addBook" configurationId="TestNG" />
+    <history-entry file="AddAuthorTest_correctAddAuthor - 2019.07.30 at 23h 02m 42s.xml">
+      <configuration name="AddAuthorTest.correctAddAuthor" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="addBookTest_addBook - 2019.07.30 at 21h 36m 59s.xml">
-      <configuration name="addBookTest.addBook" configurationId="TestNG" />
+    <history-entry file="AddAuthorTest_correctAddAuthor - 2019.07.30 at 23h 03m 14s.xml">
+      <configuration name="AddAuthorTest.correctAddAuthor" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="addBookTest_addBook - 2019.07.30 at 22h 12m 16s.xml">
-      <configuration name="addBookTest.addBook" configurationId="TestNG" />
+    <history-entry file="AddAuthorTest_addBookWithCorrectInformation - 2019.07.30 at 23h 05m 42s.xml">
+      <configuration name="AddAuthorTest.addBookWithCorrectInformation" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="addBookTest_addBook - 2019.07.30 at 22h 16m 57s.xml">
-      <configuration name="addBookTest.addBook" configurationId="TestNG" />
+    <history-entry file="AddAuthorTest_addBookWithCorrectInformation - 2019.07.30 at 23h 06m 19s.xml">
+      <configuration name="AddAuthorTest.addBookWithCorrectInformation" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29844000" />
+    <option name="totallyTimeSpent" value="32044000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="332" width="1936" height="1096" extended-state="6" />
@@ -353,7 +385,8 @@
     <MESSAGE value="*add Login Test" />
     <MESSAGE value="*add search  Test" />
     <MESSAGE value="*add Display Book Test" />
-    <option name="LAST_COMMIT_MESSAGE" value="*add Display Book Test" />
+    <MESSAGE value="*add book adding test" />
+    <option name="LAST_COMMIT_MESSAGE" value="*add book adding test" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/test/java/RegistrationTest.java">
@@ -407,6 +440,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="367">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/TestChromeDriver.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="484">
@@ -417,17 +457,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/test/java/addBookTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        <state relative-caret-position="550">
+          <caret line="25" column="1" lean-forward="true" selection-start-line="15" selection-end-line="25" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/addBookTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/AddAuthorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="54" column="4" selection-start-line="54" selection-start-column="4" selection-end-line="54" selection-end-column="4" />
+        <state relative-caret-position="651">
+          <caret line="50" column="8" selection-start-line="50" selection-start-column="8" selection-end-line="50" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
