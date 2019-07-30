@@ -13,13 +13,15 @@ public class TestChromeDriver {
         webDriver = new ChromeDriver();
     }
 
-
+/*
     @AfterClass
     public void closeChrome() {
         webDriver.close();
         webDriver.quit();
     }
 
+
+ */
 
 }
 
