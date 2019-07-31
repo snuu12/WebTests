@@ -24,6 +24,7 @@ public class TestChromeDriver {
     public void closeChrome() {
         webDriver.close();
         webDriver.quit();
+
     }
 
 
