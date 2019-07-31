@@ -14,30 +14,39 @@ import java.util.List;
 public class HomePage {
 
 
-
-
     private WebDriver webDriver;
 
     public WebDriver getWebDriver() {
         return webDriver;
     }
 
+
+
+
+    //-----------xpath to search-------
+
+    @FindBy(xpath = "//input[@id='q']")
+    private WebElement searchWindow;
+
+    @FindBy(xpath = "//form[@name='search']//div//span//img")
+    private WebElement searchButton;
+
+    //-------------xpatchs to dropDownMenu----------------
     @FindBy(xpath = "//div[@id='navbarDropdownMenuLink']")
     private WebElement menu;
 
     @FindBy(xpath = "//a[contains(text(),'Wyloguj')]")
     private WebElement logOutOption;
 
+    //-------------------xpaths to aleter when user logOut from site-----------------------
     @FindBy(xpath = "//div[@class='alert alert-warning alert-dismissible fade show mt-2']")
     private WebElement Alert;
 
 
     public HomePage(WebDriver webDriver) {
         this.webDriver = webDriver;
-        PageFactory.initElements(webDriver,this);
+        PageFactory.initElements(webDriver, this);
     }
-
-
 
 
     public void logOut() {
@@ -46,7 +55,11 @@ public class HomePage {
         actions.moveToElement(logOutOption).click().perform();
     }
 
+    public void search(String value){
+        this.searchWindow.sendKeys(value);
+        this.searchButton.click();
 
+    }
 
 
 }
