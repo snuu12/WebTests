@@ -38,7 +38,6 @@ public class AddBookTest extends  TestChromeDriver {
         Thread.sleep(500);
         webDriver.navigate().to("https://nakanapie.pl/ksiazka/dodaj");
         AddBookPage addBookPage=new AddBookPage(webDriver);
-
         addBookPage.addBook("","","");
 
 
