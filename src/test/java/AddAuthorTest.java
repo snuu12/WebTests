@@ -4,6 +4,7 @@ import org.openqa.selenium.WebElement;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import pages.AddAuthorPage;
+import pages.HomePage;
 import pages.LoginPage;
 import pages.ResultAddAuthorPage;
 
@@ -31,6 +32,8 @@ public class AddAuthorTest extends TestChromeDriver {
 
         assertTrue(resultAddAuthorPage.getTitle().getText().contains("kuba kuba"));
 
+        HomePage homePage=new HomePage(webDriver);
+        homePage.logOut();
 
 
 
