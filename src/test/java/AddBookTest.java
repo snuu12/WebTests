@@ -25,8 +25,9 @@ public class AddBookTest extends  TestChromeDriver {
             "Users\\Michal Snopek\\Desktop\\tadeusz.jpg");
 
 
-    HomePage homePage = new HomePage(webDriver);
-    homePage.logOut();
+
+//    HomePage homePage = new HomePage(webDriver);
+//    homePage.logOut();
 }
 
 

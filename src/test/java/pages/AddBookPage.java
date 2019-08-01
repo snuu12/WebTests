@@ -1,9 +1,6 @@
 package pages;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -46,7 +43,7 @@ public class AddBookPage {
         JavascriptExecutor js = (JavascriptExecutor) this.webDriver;
         js.executeScript("arguments[0].click();", publishingHouseInput);
         this.publishingHouseInput.sendKeys(publishingHouse);
-        js.executeScript("arguments[0].click();", publishingHouseInput);
+        this.publishingHouseInput.sendKeys(Keys.ENTER);
 
         this.ImageInput.sendKeys(PhotoSrc);
         this.isbnChekBox.click();

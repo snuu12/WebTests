@@ -17,12 +17,12 @@ public class TestChromeDriver {
 
 
 
-//    @AfterTest
-//    public void closeChrome() {
-//        webDriver.close();
-//        webDriver.quit();
-//
-//    }
+    @AfterTest
+    public void closeChrome() {
+        webDriver.close();
+        webDriver.quit();
+
+    }
 
 
 

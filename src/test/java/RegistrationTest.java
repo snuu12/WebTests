@@ -14,7 +14,7 @@ public class RegistrationTest extends  TestChromeDriver {
     public void testRegistration() throws InterruptedException {
         webDriver.navigate().to("https://nakanapie.pl/konto/rejestracja");
         RegistrationPage registrationPage=new RegistrationPage(webDriver);
-        registrationPage.regidtrationWithEmailAndPasswodr("dddd@gmail.com","password");
+        registrationPage.regidtrationWithEmailAndPasswodr("ddddsadsa@gmail.com","password");
 
         assertTrue(webDriver.getCurrentUrl().contains("po-rejestracji"));
 
