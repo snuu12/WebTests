@@ -21,7 +21,8 @@ public class AddBookTest extends  TestChromeDriver {
     Thread.sleep(500);
     webDriver.navigate().to("https://nakanapie.pl/ksiazka/dodaj");
     AddBookPage addBookPage = new AddBookPage(webDriver);
-    addBookPage.addBook("WebTest", "Po Godzinach ", "");
+    addBookPage.addBook("WebTest", "Po Godzinach ", "C:\\" +
+            "Users\\Michal Snopek\\Desktop\\tadeusz.jpg");
 
 
     HomePage homePage = new HomePage(webDriver);
@@ -62,7 +63,6 @@ public class AddBookTest extends  TestChromeDriver {
 
 
 }
-
 
 
 
