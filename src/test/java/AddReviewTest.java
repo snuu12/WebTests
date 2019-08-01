@@ -1,4 +1,6 @@
+import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -25,6 +27,7 @@ public class AddReviewTest extends  TestChromeDriver{
 
         webDriver.navigate().to("https://nakanapie.pl/recenzje/dodaj");
         AddReviewPage addReviewPage=new AddReviewPage(webDriver);
+        ;
         addReviewPage.addReview("Pan Tadeusz","test","asdasdss" +
                 "                   sssssssssssssssssssssssssssssssssssssssss\" +\n" +
                 "                \"ssssssssssssssssssssssssssssssssssssssss\" +\n" +
@@ -39,15 +42,23 @@ public class AddReviewTest extends  TestChromeDriver{
                 "                \"szzzzzasasasasasasa \");");
 
 
+
+
+
         ResultaddReviewPage resultaddReviewPage=new ResultaddReviewPage(webDriver);
         assertNotNull(resultaddReviewPage.getText());
 
-        HomePage homePage=new HomePage(webDriver);
-        homePage.logOut();
+
+
     }
 
     @Test
     public void addReviewWithInCorrectData() throws InterruptedException {
+        webDriver.navigate().to("https://nakanapie.pl");
+        HomePage homePage=new HomePage(webDriver);
+        homePage.logOut();
+
+
         webDriver.navigate().to("https://nakanapie.pl/konto/logowanie");
 
         LoginPage login=new LoginPage(webDriver);
@@ -60,9 +71,9 @@ public class AddReviewTest extends  TestChromeDriver{
 
 
         assertTrue(webDriver.getCurrentUrl().contains("dodaj"));
+        HomePage homePage1=new HomePage(webDriver);
+        homePage1.logOut();
 
-        HomePage homePage=new HomePage(webDriver);
-        homePage.logOut();
 
 
 
